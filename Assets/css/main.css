@@ -41,3 +41,24 @@ body {
     text-decoration: none;
     padding: 3px 0;
 }
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: black;
+    border-bottom: 4px solid white;
+}
+
+.main-nav__item--cta a{
+    color:white;
+    background-color: #000;
+    padding:7px 10px;
+    border: radius 8px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    color: #000;
+    background-color: white;
+    border-bottom: none;
+}
