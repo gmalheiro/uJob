@@ -41,6 +41,7 @@ body {
 .main-nav__item{
     display: inline-block;
     margin: 0 16px;
+    font-weight: 600;
 }
 
 .main-nav__item a{
@@ -52,6 +53,7 @@ body {
 .main-nav__item a:hover,
 .main-nav__item a:active{
     color: black;
+    font-weight: bold;
     border-bottom: 4px solid white;
 }
 
