@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
@@ -20,7 +20,7 @@ body {
 
 .main-header__brand{
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 700;
     color: white;
     font-size: 22px;
 }
@@ -68,4 +68,24 @@ body {
     color: #000;
     background-color: white;
     border-bottom: none;
+}
+
+#bg-overview{
+    background-image: url(../Imgs/uJobBanner.jpg);
+    height: 70vh;
+    background-size: cover;
+    width: 100%;
+    background-position: right center;
+    padding: 10px;
+}
+
+#bg-overview h1{
+    color: white;
+    margin: 70px 30px;
+    font-weight: 500;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    border-bottom: 3px solid white;
 }
