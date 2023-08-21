@@ -70,7 +70,7 @@ body {
     border-bottom: none;
 }
 
-#bg-overview{
+#banner-overview{
     background-image: url(../Imgs/uJobBanner.jpg);
     height: 70vh;
     background-size: cover;
@@ -79,7 +79,7 @@ body {
     padding: 10px;
 }
 
-#bg-overview h1{
+#banner-overview h1{
     color: white;
     margin: 70px 30px;
     font-weight: 500;
@@ -88,4 +88,8 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 3px;
     border-bottom: 3px solid white;
+}
+
+#description p{
+    font-weight: 500;
 }
